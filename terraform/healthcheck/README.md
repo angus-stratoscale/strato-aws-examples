@@ -7,12 +7,12 @@ This TF script will deploy one of every resource available in any given version 
 Along with your API credentials, ensure you specify the AMI ID in your .tfvars file. A sample has been created to reference. 
 
 ### Resources to be provisioned (in order of operation):
+- 1 Edge network
+- 1 Database subnet
+- 1 Web subnet
+- 1 Public subnet
 - 1 Tenant
 - 1 Project, VPC enabled
-- 1 Database subnets
-- 1 Web subnets
-- 1 public subnets
-- 1 Edge network
 - ...
 
 ### Resources:

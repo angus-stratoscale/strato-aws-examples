@@ -4,7 +4,7 @@
 This TF script will deploy one of every resource available in any given version of Symphony as a means of healthchecking service creation on a new cluster and to stage data in a new cluster for POC/Lab/Demo purposes.
 
 ## Before running
-Along with your API credentials, ensure you specify the AMI ID in your .tfvars file. A sample has been created to reference. Please use a cloud-ready Ubuntu Xenial image. For list of official AMI's see: https://cloud-images.ubuntu.com/locator/ec2/.
+Along with your API credentials, ensure you specify the AMI ID in your .tfvars file. A sample has been created to reference. 
 
 ### Resources to be provisioned (in order of operation):
 - 1 Tenant

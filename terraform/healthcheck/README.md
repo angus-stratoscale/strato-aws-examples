@@ -1,11 +1,12 @@
-Terraform Healthcheck deployment
-Description:
+# Terraform Healthcheck deployment
+
+## Description:
 This TF script will deploy one of every resource available in any given version of Symphony as a means of healthchecking service creation on a new cluster and to stage data in a new cluster for POC/Lab/Demo purposes.
 
-Before running
+## Before running
 Along with your API credentials, ensure you specify the AMI ID in your .tfvars file. A sample has been created to reference. Please use a cloud-ready Ubuntu Xenial image. For list of official AMI's see: https://cloud-images.ubuntu.com/locator/ec2/.
 
-Resources to be provisioned (in order of operation):
+### Resources to be provisioned (in order of operation):
 1 Tenant
 1 Project, VPC enabled
 1 Database subnets
@@ -14,7 +15,7 @@ Resources to be provisioned (in order of operation):
 1 Edge network
 ...
 
-Resources:
+### Resources:
 1 NLB
 1 RDS instance for each engine type
 1 RDC instance for each engine type
@@ -23,7 +24,7 @@ Resources:
 1 Map Reduce cluster
 ...
 
-Stratoscale Symphony Requirements:
+### Stratoscale Symphony Requirements:
 - Bright or Dark site compatible 
 - Tested edge network settings
 - Tested network VLAN settings

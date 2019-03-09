@@ -24,4 +24,3 @@ Along with your API credentials, ensure you specify the AMI ID in your .tfvars f
 - VPC mode enabled for tenant project
 
 ### Tested with: Terraform v0.11.7
-

@@ -1,9 +1,9 @@
-# Sample tfvars file 
+# Sample tfvars file
 # Stratoscale Symphony credentials
 
-symphony_ip = "<region ip>"
-access_key = "<access key>"
-secret_key = "<secret key>"
+symphony_ip = "31.168.231.121"
+access_key = "c0543eed1e3a46e790c39c3243607604"
+secret_key = "3ff862aadd9e4a86a6ab5fa19ffa6c55"
 
 # Number of web servers (Load balancer will automatically manage target groups)
 web_number = "2"
